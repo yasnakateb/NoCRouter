@@ -156,6 +156,9 @@ module fsm(
 			end
 
 			STATE_LOAD_PARITY: begin
+				if( i_Sig_Fifo_Full )
+					r_Next_State <= STATE_FIFO_FULL;
+				else	
 				r_Next_State <= STATE_CHECK_PARITY_ERROR;
 			end
 
