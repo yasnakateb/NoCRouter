@@ -5,6 +5,10 @@ that forwards data packets between computer networks. It is connected to two or 
 networks.
 
 ## Implementation
+In this project, the proposed design of the router includes components like FIFO, register,
+synchronizer, FSM and input and output signals between them. The register implements 4 internal registers in order to hold a header byte, FIFO full state byte, internal parity and packet parity byte. The synchronizer provides synchronization between router FSM and router FIFO modules. It provides faithful
+communication between the single input port and three output ports.
+
 ### States
 
 This router has eight stages:
@@ -100,6 +104,6 @@ This project needs [Icarus-Verilog](http://iverilog.icarus.com) and a VCD viewer
 
 #### TODO
 
- - ⭕ Add specifications
+ - ✅ Add specifications
  - ✅ Fifo: Fix output data 
  
