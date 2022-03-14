@@ -101,6 +101,11 @@ This project needs [Icarus-Verilog](http://iverilog.icarus.com) and a VCD viewer
 ![](assets/waveforms.png)
 
 
+## References
+1. [NoCRouter - RTL Router Design in SystemVerilog](https://github.com/agalimberti/NoCRouter)
+2. [Router 1X3-RTL Design and Verification](https://www.researchgate.net/publication/329236255_Router_1X3-RTL_Design_and_Verification)
+3. [DESIGN OF A 5 PORT ROUTER FOR NOC USING VERILOG](https://www.researchgate.net/publication/338296428_DESIGN_OF_A_5_PORT_ROUTER_FOR_NOC_USING_VERILOG)
+
 
 #### TODO
 
